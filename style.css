@@ -1,0 +1,143 @@
+*{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body{
+    max-width: 800px;
+    margin: 2vh auto;
+    text-align: center;
+}
+
+/* ---------- HEADER ---------- */
+header{
+    height: 80px;
+    padding: 0 40px;
+    background-color: #0E1085;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.logo{
+    color: white;
+    line-height: 80px;
+    font-size: 35px;
+}
+
+.agregar_receta{
+    margin: 15px 0;
+    padding: 0 10px;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.agregar_receta:hover{
+    background-color:beige;
+    color: black;
+}
+
+/* ---------- END HEADER ---------- */
+
+/* ---------- INDEX ---------- */
+.container{
+    margin:  40px 100px;
+}
+
+.list_heading{
+    margin: 25px 10px;
+    text-align: left;
+}
+
+.list_display{
+    text-align: left;
+    line-height: 20px;
+}
+
+.list_display ol,
+.list_display ul{
+    list-style-type: none;
+}
+
+.list_display ol li,
+.list_display ul li{
+    margin: 10px 0;
+    background-color: beige;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+}
+
+/* ---------- END INDEX ---------- */
+
+/* ---------- ADD ---------- */
+
+.form_header{
+    font-size: xx-large;
+}
+
+.container{
+    margin: 30px;
+}
+
+.firstrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ingredient,
+#measurement,
+#quantity,
+#childingredient,
+#childmeasurement,
+#childquantity{
+    margin: 10px;
+    background-color: beige;
+    border: none;
+    outline: none;
+    line-height: 30px;
+    border-radius: 5px;
+    justify-self: center;
+    padding: 5px;
+}
+
+#add{
+    background-color: rgb(14, 16, 133);
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+#add_fake{
+    padding: 10px;
+    visibility: hidden;
+}
+
+
+
+#submit{
+    background:none;
+    background-color: rgb(14, 16, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ---------- END ADD ---------- */
